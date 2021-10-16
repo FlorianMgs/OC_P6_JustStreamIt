@@ -240,6 +240,7 @@ header img {
 #best-movie__pic {
   display: block;
   border: 1px solid #00FFE8;
+  cursor: pointer;
 }
 #best-movie__infos {
   text-align: center;

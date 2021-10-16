@@ -277,6 +277,10 @@ async function renderBestMovie() {
     document
         .getElementById("best-movie__pic")
         .setAttribute("src", bestMovieImg);
+    
+    document
+        .getElementById("best-movie__pic")
+        .setAttribute("onclick", "renderModal(" + bestMovieId + ")");
 
     document
     .getElementById("best-movie__title")
